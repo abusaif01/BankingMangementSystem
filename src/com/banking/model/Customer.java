@@ -6,6 +6,7 @@ public class Customer {
 	private String CustomerPassword;
 	private String CustomerId;
 	private String CustomerEmail;
+	//private String account_number;
 	
 	
 	
@@ -34,6 +35,17 @@ public class Customer {
 		CustomerEmail = customerEmail;
 	}
 	
+	
+	//open acc and close acc
+	public void openAccount()
+	{
+		
+	}
+	
+	public void closeAccount()
+	{
+		
+	}
 	
 	
 	
