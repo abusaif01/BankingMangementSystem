@@ -2,42 +2,42 @@ package com.banking.model;
 
 public class User {
 
-	private String customerName;
-	private String customerPassword;
-	private String customerId;
-	private String customerEmail;
+	private String name;
+	private String password;
+	private int id;
+	private String email;
 	//private String account_number;
 	
 	
 	//constructor
-	public User(String name,String password,String id,String email)
+	public User()
 	{
 		
 	}
 	
-	public String getCustomerName() {
-		return this.customerName;
+	public String getName() {
+		return this.name;
 	}
-	public void setCustomerName(String customerName) {
-		this.customerName = customerName;
+	public void setName(String customerName) {
+		this.name = customerName;
 	}
-	public String getCustomerPassword() {
-		return this.customerPassword;
+	public String getPassword() {
+		return this.password;
 	}
-	public void setCustomerPassword(String customerPassword) {
-		this.customerPassword = customerPassword;
+	public void setPassword(String customerPassword) {
+		this.password = customerPassword;
 	}
-	public String getCustomerId() {
-		return this.customerId;
+	public int getId() {
+		return this.id;
 	}
-	public void setCustomerId(String customerId) {
-		this.customerId = customerId;
+	public void setId(int i) {
+		this.id = i;
 	}
-	public String getCustomerEmail() {
-		return this.customerEmail;
+	public String getEmail() {
+		return this.email;
 	}
-	public void setCustomerEmail(String customerEmail) {
-		this.customerEmail = customerEmail;
+	public void setEmail(String customerEmail) {
+		this.email = customerEmail;
 	}
 	
 	
@@ -51,6 +51,8 @@ public class User {
 	{
 		
 	}
+
+	
 	
 	
 	
