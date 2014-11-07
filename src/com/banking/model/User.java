@@ -1,38 +1,43 @@
 package com.banking.model;
 
-public class Customer {
+public class User {
 
-	private String CustomerName;
-	private String CustomerPassword;
-	private String CustomerId;
-	private String CustomerEmail;
+	private String customerName;
+	private String customerPassword;
+	private String customerId;
+	private String customerEmail;
 	//private String account_number;
 	
 	
+	//constructor
+	public User(String name,String password,String id,String email)
+	{
+		
+	}
 	
 	public String getCustomerName() {
-		return CustomerName;
+		return this.customerName;
 	}
 	public void setCustomerName(String customerName) {
-		CustomerName = customerName;
+		this.customerName = customerName;
 	}
 	public String getCustomerPassword() {
-		return CustomerPassword;
+		return this.customerPassword;
 	}
 	public void setCustomerPassword(String customerPassword) {
-		CustomerPassword = customerPassword;
+		this.customerPassword = customerPassword;
 	}
 	public String getCustomerId() {
-		return CustomerId;
+		return this.customerId;
 	}
 	public void setCustomerId(String customerId) {
-		CustomerId = customerId;
+		this.customerId = customerId;
 	}
 	public String getCustomerEmail() {
-		return CustomerEmail;
+		return this.customerEmail;
 	}
 	public void setCustomerEmail(String customerEmail) {
-		CustomerEmail = customerEmail;
+		this.customerEmail = customerEmail;
 	}
 	
 	

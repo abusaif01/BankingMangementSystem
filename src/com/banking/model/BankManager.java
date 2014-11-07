@@ -1,15 +1,16 @@
 package com.banking.model;
 
-public class BankManager extends Customer {
+public class BankManager  {
 	
-	private String user_name;
+	private String userName;
 	private String Password;
-	private String member_id;
-	public String getUser_name() {
-		return user_name;
+	private String memberId;
+	
+	public String getUserName() {
+		return userName;
 	}
-	public void setUser_name(String user_name) {
-		this.user_name = user_name;
+	public void setUserName(String user_name) {
+		this.userName = user_name;
 	}
 	public String getPassword() {
 		return Password;
@@ -17,19 +18,29 @@ public class BankManager extends Customer {
 	public void setPassword(String password) {
 		Password = password;
 	}
-	public String getMember_id() {
-		return member_id;
+	public String getMemberId() {
+		return memberId;
 	}
-	public void setMember_id(String member_id) {
-		this.member_id = member_id;
+	public void setMemberId(String member_id) {
+		this.memberId = member_id;
 	}
 	
+	
+	//public methods
 	public void editCustomerInfo()
 	{
 		
 	}
 	
-
+	public void calculatingBalance()
+	{
+		
+	}
+	
+	public void approvingAccount()
+	{
+		
+	}
 	
 
 }
